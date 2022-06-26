@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "RecyclingPad")(type "KiCad")(uri "${KIPRJMOD}/RecyclingPad.pretty")(options "")(descr ""))
+)
