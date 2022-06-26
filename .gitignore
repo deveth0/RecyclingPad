@@ -1,0 +1,8 @@
+*.epf
+*.cfg
+*.CFG
+*#*
+*.lck
+
+RecyclingPad-backups
+fp-info-cache
