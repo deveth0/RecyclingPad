@@ -4,5 +4,5 @@
 *#*
 *.lck
 
-RecyclingPad-backups
+*-backups
 fp-info-cache

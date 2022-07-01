@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Develop\RecyclingTmp\PCB\RecyclingPad_embedded\RecyclingPad_embedded.kicad_sch</source>
+    <date>28/06/2022 21:44:47</date>
+    <tool>Eeschema (6.0.1)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>RecyclingPad - embedded</title>
+        <company>deveth0</company>
+        <rev>0.1x</rev>
+        <date>2022-06-22</date>
+        <source>RecyclingPad_embedded.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C91245</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part" value="C91245"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01deaeb9-eff8-4971-83c0-f60e03f13e57</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C1804</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part" value="C1804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c63006f4-f9c8-46c7-9bb9-8175dd3f9e59</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C1804</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part" value="C1804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41334b7d-d0c4-4f58-b084-db5b24dac967</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C49678</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part" value="C49678"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>408dde7b-f499-4e16-ba0e-14a354a45bb1</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C49678</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part" value="C49678"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fcecf45-1622-43c1-baab-d97c3c15b00a</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C28323</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part" value="C28323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d43560a-37f4-4879-bce8-1de111903f26</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>DIODEDO-1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.vishay.com/docs/85751/1n4148ws.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part">C2128</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51cc475e-b0c8-4783-a70e-6ee2d41eff55</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>DIODEDO-1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.vishay.com/docs/85751/1n4148ws.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part">C2128</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c186cbf-9cac-4388-adb2-6d310baf89db</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>DIODEDO-1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.vishay.com/docs/85751/1n4148ws.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part">C2128</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b05ab39a-81a2-413d-81a7-9ed4c7df36bd</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>DIODEDO-1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.vishay.com/docs/85751/1n4148ws.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part">C2128</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e1731fc-6d5e-412b-b8b9-2191cd97669b</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>DIODEDO-1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.vishay.com/docs/85751/1n4148ws.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part">C2128</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1d6017a-3cff-4551-af2b-4ed8b3d34415</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>DIODEDO-1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.vishay.com/docs/85751/1n4148ws.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part">C2128</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4972b020-4774-4db1-ad0e-3671087ece28</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>DIODEDO-1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.vishay.com/docs/85751/1n4148ws.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part">C2128</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e4bc78d-2163-408b-98a0-20832ab2c20f</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>DIODEDO-1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.vishay.com/docs/85751/1n4148ws.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part">C2128</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4eb88873-afc7-44d7-9315-2b009adee6ba</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>DIODEDO-1N4148</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://www.vishay.com/docs/85751/1n4148ws.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part">C2128</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148WS" description="75V 0.15A Fast switching Diode, SOD-323"/>
+      <property name="LCSC Part" value="C2128"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab87da6d-546d-4ea9-aae2-df687d09a641</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Polyfuse_Small</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C69688</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="LCSC Part" value="C69688"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0da38ba-9538-4934-8d62-bca3f3051c3a</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C17561</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part" value="C17561"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53c4f23a-1e20-4d53-8130-957e7314effe</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C17561</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part" value="C17561"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8bd12109-12d8-44ca-8f84-090389b144b4</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part" value="C17414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf1e14ae-910d-4f28-b6b7-3f17e94508b1</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C27834</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part" value="C27834"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fcb23687-79e7-494b-b78d-610b9b788477</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C27834</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part" value="C27834"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b41ef15b-19db-4860-ba56-eaf15cd680a0</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC Part">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part" value="C17414"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ce00f96-fd7c-425c-b79d-106d674e0be2</tstamps>
+    </comp>
+    <comp ref="RESET1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="LCSC Part">C318884</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="LCSC Part" value="C318884"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a2b3283-e150-4adc-9d58-cfe49a9f7c4e</tstamps>
+    </comp>
+    <comp ref="RE_0_1">
+      <value>CHERRY-MX-ENCODER</value>
+      <footprint>CHERRY-MX-ENCODER</footprint>
+      <libsource lib="RecyclingPad" part="CHERRY-MX-ENCODER" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0dbdc6b-b875-4795-b37b-17f40d6c3217 468e5b6e-3dbe-48b4-8f0f-d3fc3fc586b7</tstamps>
+    </comp>
+    <comp ref="RE_3_1">
+      <value>CHERRY-MX-ENCODER</value>
+      <footprint>CHERRY-MX-ENCODER</footprint>
+      <libsource lib="RecyclingPad" part="CHERRY-MX-ENCODER" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6e5ad9d-ee34-4961-8a87-7d8e18ad3fc3 c9c17c4e-4fbc-46f6-b3c8-03e8d0edb5a1</tstamps>
+    </comp>
+    <comp ref="RE_3_2">
+      <value>CHERRY-MX-ENCODER</value>
+      <footprint>CHERRY-MX-ENCODER</footprint>
+      <libsource lib="RecyclingPad" part="CHERRY-MX-ENCODER" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80d67f52-2ded-43bd-8a31-2efce06698ec 2fb413be-5636-4222-bf0c-5dfb989f597b</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY</value>
+      <footprint>RecyclingPad:CHERRY-MX</footprint>
+      <libsource lib="RecyclingPad" part="CHERRY-MX" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e7f768e-b147-411b-bf35-1e3fac46ced4</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY</value>
+      <footprint>RecyclingPad:CHERRY-MX</footprint>
+      <libsource lib="RecyclingPad" part="CHERRY-MX" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e64e26a8-b23e-4cde-bc83-6bd1e36b5cd7</tstamps>
+    </comp>
+    <comp ref="S3">
+      <value>MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY</value>
+      <footprint>RecyclingPad:CHERRY-MX</footprint>
+      <libsource lib="RecyclingPad" part="CHERRY-MX" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>970a683d-9531-4c94-8306-6f773ad45df6</tstamps>
+    </comp>
+    <comp ref="S4">
+      <value>MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY</value>
+      <footprint>RecyclingPad:CHERRY-MX</footprint>
+      <libsource lib="RecyclingPad" part="CHERRY-MX" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae29d924-a78e-4921-9076-cee955e9daff</tstamps>
+    </comp>
+    <comp ref="S5">
+      <value>MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY</value>
+      <footprint>RecyclingPad:CHERRY-MX</footprint>
+      <libsource lib="RecyclingPad" part="CHERRY-MX" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73f76336-470d-415b-b278-085dc09d9d5a</tstamps>
+    </comp>
+    <comp ref="S6">
+      <value>MOMENTARY-SWITCH-SPST-LED-PTH-CHERRY</value>
+      <footprint>RecyclingPad:CHERRY-MX</footprint>
+      <libsource lib="RecyclingPad" part="CHERRY-MX" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8429363a-9c4c-4376-b624-72e9ad7cb67a</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATmega32U2-AU</value>
+      <footprint>Package_QFP:TQFP-32_7x7mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part">C618733</field>
+      </fields>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega32U2-AU" description=""/>
+      <property name="LCSC Part" value="C618733"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99b133a6-a828-4f47-9ef9-ed62709eac0d</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SRV05-4</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC Part">C85364</field>
+      </fields>
+      <libsource lib="Power_Protection" part="SRV05-4" description="ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"/>
+      <property name="LCSC Part" value="C85364"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69ea6944-d840-4a13-94e7-569df0a96ec0</tstamps>
+    </comp>
+    <comp ref="USB1">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="LCSC Part">C165948</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="LCSC Part" value="C165948"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f98aefbe-1069-4ca1-858e-dbbdbc56769e</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>Crystal_GND24_Small</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <fields>
+        <field name="LCSC Part">C13738</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
+      <property name="LCSC Part" value="C13738"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RecyclingPad_embedded.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27eac3fb-bd87-4e25-b637-19f34283656e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24_Small">
+      <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse_Small">
+      <description>Resettable fuse, polymeric positive temperature coefficient, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148WS">
+      <description>75V 0.15A Fast switching Diode, SOD-323</description>
+      <docs>https://www.vishay.com/docs/85751/1n4148ws.pdf</docs>
+      <footprints>
+        <fp>D*SOD?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148WS</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85751/1n4148ws.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega32U2-AU">
+      <footprints>
+        <fp>TQFP*7x7mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCU_Microchip_ATmega_ATmega32U2-AU</field>
+        <field name="Footprint">Package_QFP:TQFP-32_7x7mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="XTAL1" type="input"/>
+        <pin num="2" name="PC0/XTAL2" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="PC2" type="bidirectional"/>
+        <pin num="6" name="PD0" type="bidirectional"/>
+        <pin num="7" name="PD1" type="bidirectional"/>
+        <pin num="8" name="PD2" type="bidirectional"/>
+        <pin num="9" name="PD3" type="bidirectional"/>
+        <pin num="10" name="PD4" type="bidirectional"/>
+        <pin num="11" name="PD5" type="bidirectional"/>
+        <pin num="12" name="PD6" type="bidirectional"/>
+        <pin num="13" name="~{HWB}/PD7" type="bidirectional"/>
+        <pin num="14" name="PB0" type="bidirectional"/>
+        <pin num="15" name="PB1" type="bidirectional"/>
+        <pin num="16" name="PB2" type="bidirectional"/>
+        <pin num="17" name="PB3" type="bidirectional"/>
+        <pin num="18" name="PB4" type="bidirectional"/>
+        <pin num="19" name="PB5" type="bidirectional"/>
+        <pin num="20" name="PB6" type="bidirectional"/>
+        <pin num="21" name="PB7" type="bidirectional"/>
+        <pin num="22" name="PC7" type="bidirectional"/>
+        <pin num="23" name="PC6" type="bidirectional"/>
+        <pin num="24" name="PC1/~{RESET}" type="bidirectional"/>
+        <pin num="25" name="PC5" type="bidirectional"/>
+        <pin num="26" name="PC4" type="bidirectional"/>
+        <pin num="27" name="UCAP" type="passive"/>
+        <pin num="28" name="UGND" type="power_in"/>
+        <pin num="29" name="D+" type="bidirectional"/>
+        <pin num="30" name="D-" type="bidirectional"/>
+        <pin num="31" name="UVCC" type="power_in"/>
+        <pin num="32" name="AVCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="SRV05-4">
+      <description>ESD Protection Diodes with Low Clamping Voltage, SOT-23-6</description>
+      <docs>http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SRV05-4</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO1" type="passive"/>
+        <pin num="2" name="VN" type="passive"/>
+        <pin num="3" name="IO2" type="passive"/>
+        <pin num="4" name="IO3" type="passive"/>
+        <pin num="5" name="VP" type="passive"/>
+        <pin num="6" name="IO4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RecyclingPad" part="CHERRY-MX">
+      <fields>
+        <field name="Reference">S1</field>
+        <field name="Value">CHERRY-MX</field>
+        <field name="Footprint">RecyclingPad:CHERRY-MX</field>
+      </fields>
+      <pins>
+        <pin num="S1" name="1" type="passive"/>
+        <pin num="S2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RecyclingPad" part="CHERRY-MX-ENCODER">
+      <fields>
+        <field name="Reference">RE_0_1</field>
+        <field name="Value">CHERRY-MX-ENCODER</field>
+        <field name="Footprint">CHERRY-MX-ENCODER</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="D" name="1" type="passive"/>
+        <pin num="E" name="2" type="passive"/>
+        <pin num="S1" name="1" type="passive"/>
+        <pin num="S2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Microchip_ATmega.kicad_sym</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Power_Protection.kicad_sym</uri>
+    </library>
+    <library logical="RecyclingPad">
+      <uri>D:/Develop/RecyclingPad/PCB/RecyclingPad.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="UVCC" pintype="power_in"/>
+      <node ref="U1" pin="32" pinfunction="AVCC" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="COL0">
+      <node ref="RE_0_1" pin="E" pinfunction="2" pintype="passive"/>
+      <node ref="RE_0_1" pin="S2" pinfunction="2" pintype="passive"/>
+      <node ref="RE_3_1" pin="E" pinfunction="2" pintype="passive"/>
+      <node ref="RE_3_1" pin="S2" pinfunction="2" pintype="passive"/>
+      <node ref="RE_3_2" pin="E" pinfunction="2" pintype="passive"/>
+      <node ref="RE_3_2" pin="S2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="PC7" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="COL1">
+      <node ref="S1" pin="S2" pinfunction="2" pintype="passive"/>
+      <node ref="S3" pin="S2" pinfunction="2" pintype="passive"/>
+      <node ref="S5" pin="S2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="COL2">
+      <node ref="S2" pin="S2" pinfunction="2" pintype="passive"/>
+      <node ref="S4" pin="S2" pinfunction="2" pintype="passive"/>
+      <node ref="S6" pin="S2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="D+">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IO1" pintype="passive"/>
+      <node ref="USB1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="USB1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="D-">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="IO3" pintype="passive"/>
+      <node ref="USB1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="USB1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="ENCODER0_L0">
+      <node ref="RE_3_1" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="PD3" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="ENCODER0_L1">
+      <node ref="RE_3_1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PD4" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="ENCODER1_L0">
+      <node ref="RE_0_1" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PD5" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="ENCODER1_L1">
+      <node ref="RE_0_1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PD6" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="ENCODER2_L0">
+      <node ref="RE_3_2" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="ENCODER2_L1">
+      <node ref="RE_3_2" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="RESET1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RE_0_1" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="RE_3_1" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="RE_3_2" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="UGND" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="VN" pintype="passive"/>
+      <node ref="USB1" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="USB1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="USB1" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="USB1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="USB1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="X1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="X1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="XTAL1" pintype="input"/>
+      <node ref="X1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PC0/XTAL2" pintype="bidirectional"/>
+      <node ref="X1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="UCAP" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RE_0_1" pin="D" pinfunction="1" pintype="passive"/>
+      <node ref="RE_0_1" pin="S1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="S1" pin="S1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="S2" pin="S1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RE_3_1" pin="D" pinfunction="1" pintype="passive"/>
+      <node ref="RE_3_1" pin="S1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="S3" pin="S1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="S4" pin="S1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="RE_3_2" pin="D" pinfunction="1" pintype="passive"/>
+      <node ref="RE_3_2" pin="S1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="S5" pin="S1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="S6" pin="S1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="RESET1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="PC1/~{RESET}" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="USB1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="USB1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="~{HWB}/PD7" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="ROW0">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="ROW1">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="ROW2">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="VCC">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="VP" pintype="passive"/>
+      <node ref="USB1" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="USB1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="USB1" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="USB1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="36" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="PC2" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="PD0" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="PD1" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="PD2" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="unconnected-(U1-Pad17)">
+      <node ref="U1" pin="17" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="unconnected-(U1-Pad23)">
+      <node ref="U1" pin="23" pinfunction="PC6" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="unconnected-(U1-Pad25)">
+      <node ref="U1" pin="25" pinfunction="PC5" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="unconnected-(U1-Pad26)">
+      <node ref="U1" pin="26" pinfunction="PC4" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="unconnected-(U2-Pad3)">
+      <node ref="U2" pin="3" pinfunction="IO2" pintype="passive"/>
+    </net>
+    <net code="45" name="unconnected-(U2-Pad6)">
+      <node ref="U2" pin="6" pinfunction="IO4" pintype="passive"/>
+    </net>
+    <net code="46" name="unconnected-(USB1-PadA8)">
+      <node ref="USB1" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="unconnected-(USB1-PadB8)">
+      <node ref="USB1" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

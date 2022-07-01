@@ -1398,7 +1398,7 @@
 
   (symbol (lib_id "dumbpad-eagle-import:GND") (at 59.69 63.5 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid 48c7fbc2-41c9-4c8f-885b-69a9fd2e1c24)
+    (uuid 48c7fbc2-41c9-4c8f-885b-69a9fd2e1c25)
     (property "Reference" "#GND?" (id 0) (at 59.69 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1411,7 +1411,7 @@
     (property "Datasheet" "" (id 3) (at 59.69 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8247310a-de92-4616-9b08-cb00011df0ce))
+    (pin "1" (uuid 8247310a-de92-4616-9b08-cb00011df0cf))
   )
 
   (symbol (lib_id "dumbpad-eagle-import:DIODEDO-1N4148") (at 96.52 151.13 180) (unit 1)
@@ -1879,7 +1879,7 @@
     (path "/876694f5-ecb0-4846-b2aa-609c9416c1cf"
       (reference "#GND0103") (unit 1) (value "GND") (footprint "")
     )
-    (path "/48c7fbc2-41c9-4c8f-885b-69a9fd2e1c24"
+    (path "/48c7fbc2-41c9-4c8f-885b-69a9fd2e1c25"
       (reference "#GND?") (unit 1) (value "GND") (footprint "")
     )
     (path "/d74fd4e6-dda5-4b0a-9281-50912d229d8f"
