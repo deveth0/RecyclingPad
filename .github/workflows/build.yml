@@ -24,6 +24,7 @@ jobs:
         run: cp -r recyclingPad/qmk/recyclingpad qmk_firmware/keyboards
 
   build:
+    needs: [ setup ]
     runs-on: ubuntu-latest
     container: qmkfm/qmk_cli
       
