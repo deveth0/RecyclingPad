@@ -31,10 +31,10 @@ jobs:
       - name: Copy config
         run: cp -r recyclingPad/qmk/recyclingpad qmk_firmware/keyboards
 
-      - run: cd qmk_firmware && qmk compile --keyboard ${matrix.keyboard} --keymap ${matrix.keymap}
+      - run: cd qmk_firmware && qmk compile --keyboard ${{matrix.keyboard}} --keymap ${{matrix.keymap}}
         
       - uses: actions/upload-artifact@v3
         with:
-          name: ${matrix.keyboard}-${matrix.keymap}
-          path: qmk_firmware/.build/${matrix.keyboard}-${matrix.keymap}.hex
+          name: ${{matrix.keyboard}}-${{matrix.keymap}}
+          path: qmk_firmware/.build/${{matrix.keyboard}}-${{matrix.keymap}}.hex
           if-no-files-found: error
