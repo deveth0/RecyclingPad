@@ -5,26 +5,8 @@ on:
   pull_request:
 
 jobs:
-  
-  setup: 
-    runs-on: ubuntu-latest
-    container: qmkfm/qmk_cli
-    steps:
-      - name: Check out latest GMK
-        uses: actions/checkout@v3
-        with:
-          repository: qmk/qmk_firmware
-          path: qmk_firmware
-          submodules: true
-      - name: Checkout code
-        uses: actions/checkout@v3
-        with:
-          path: recyclingPad
-      - name: Copy config
-        run: cp -r recyclingPad/qmk/recyclingpad qmk_firmware/keyboards
 
   build:
-    needs: [ setup ]
     runs-on: ubuntu-latest
     container: qmkfm/qmk_cli
       
@@ -34,6 +16,21 @@ jobs:
         keymaps: [default, via]
 
     steps:
+      - name: Check out latest GMK
+        uses: actions/checkout@v3
+        with:
+          repository: qmk/qmk_firmware
+          path: qmk_firmware
+          submodules: true
+
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          path: recyclingPad
+
+      - name: Copy config
+        run: cp -r recyclingPad/qmk/recyclingpad qmk_firmware/keyboards
+
       - run: cd qmk_firmware && qmk compile --keyboard ${matrix.keyboard} --keymap ${matrix.keymap}
         
       - uses: actions/upload-artifact@v3
