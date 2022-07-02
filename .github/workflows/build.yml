@@ -1,5 +1,3 @@
-
-
 name: build
 
 on: 
@@ -28,19 +26,14 @@ jobs:
         shell: 'bash {0}'
         run: |
           cd qmk_firmware
-          QMK_CHANGES=$(echo -e '${{ steps.file_changes.outputs.files}}')
           QMK_KEYBOARDS=$(qmk list-keyboards)
           exit_code=0
           for KB in $QMK_KEYBOARDS; do
-            KEYBOARD_CHANGES=$(echo "$QMK_CHANGES" | grep -E '^(keyboards/'${KB}'/)')
-            if [[ -z "$KEYBOARD_CHANGES" ]]; then
-              # skip as no changes for this keyboard
-              continue
-            fi
-            KEYMAP_ONLY=$(echo "$KEYBOARD_CHANGES" | grep -cv /keymaps/)
-            if [[ $KEYMAP_ONLY -gt 0 ]]; then
-              echo "linting ${KB}"
-              qmk lint --keyboard ${KB} && qmk info -l --keyboard ${KB}
+            qmk info -l --keyboard ${KB}
+            QMK_KEYMAPS=$(qmk list-keymaps -kb ${KB})
+            for KM in $QMK_KEYMAPS; do
+              echo "building ${KB} - ${KM}"
+              qmk compile --keyboard ${KB} --keymap ${KM}
               exit_code=$(($exit_code + $?))
             fi
           done
