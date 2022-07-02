@@ -31,7 +31,7 @@ jobs:
       - name: Copy config
         run: cp -r recyclingPad/qmk/recyclingpad qmk_firmware/keyboards
 
-      - run: cd qmk_firmware && qmk compile --keyboard ${{matrix.keyboard}} --keymap ${{matrix.keymap}}
+      - run: cd qmk_firmware && qmk compile --keyboard recyclingPad/${{matrix.keyboard}} --keymap ${{matrix.keymap}}
         
       - uses: actions/upload-artifact@v3
         with:
