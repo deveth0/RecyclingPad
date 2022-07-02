@@ -15,14 +15,36 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: qmk/qmk_firmware
-          path: qmk
+          path: qmk_firmware
       - name: Checkout code
         uses: actions/checkout@v3
         with:
           path: recyclingPad
       - name: Copy config
         run: cp -r recyclingPad/qmk/recyclingpad qmk/keyboards
-      - name: Build qmk
-        run: qmk compile -kb recyclingpad/v1x_left -km default
+      - name: Build all recyclingPads
+        shell: 'bash {0}'
+        run: |
+          cd qmk_firmware
+          QMK_CHANGES=$(echo -e '${{ steps.file_changes.outputs.files}}')
+          QMK_KEYBOARDS=$(qmk list-keyboards)
+          exit_code=0
+          for KB in $QMK_KEYBOARDS; do
+            KEYBOARD_CHANGES=$(echo "$QMK_CHANGES" | grep -E '^(keyboards/'${KB}'/)')
+            if [[ -z "$KEYBOARD_CHANGES" ]]; then
+              # skip as no changes for this keyboard
+              continue
+            fi
+            KEYMAP_ONLY=$(echo "$KEYBOARD_CHANGES" | grep -cv /keymaps/)
+            if [[ $KEYMAP_ONLY -gt 0 ]]; then
+              echo "linting ${KB}"
+              qmk lint --keyboard ${KB} && qmk info -l --keyboard ${KB}
+              exit_code=$(($exit_code + $?))
+            fi
+          done
+          if [[ $exit_code -gt 255 ]]; then
+              exit 255
+          fi
+          exit $exit_code
         
 
