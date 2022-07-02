@@ -35,7 +35,7 @@ jobs:
               echo "building ${KB} - ${KM}"
               qmk compile --keyboard ${KB} --keymap ${KM}
               exit_code=$(($exit_code + $?))
-            fi
+            done
           done
           if [[ $exit_code -gt 255 ]]; then
               exit 255
