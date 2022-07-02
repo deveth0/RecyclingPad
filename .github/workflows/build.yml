@@ -1,0 +1,28 @@
+name: build
+
+on: 
+  push:
+  pull_request:
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    container: qmkfm/qmk_cli
+
+    steps:
+      - name: Check out latest GMK
+        uses: actions/checkout@v3
+        with:
+          repository: qmk/qmk_firmware
+          path: qmk
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          path: recyclingPad
+      - name: Copy config
+        run: cp -r recyclingPad/qmk/recyclingpad qmk/keyboards
+      - name: Build qmk
+        run: qmk compile -kb recyclingpad/v1x_left -km default
+        
+
