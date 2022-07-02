@@ -32,7 +32,9 @@ Depending on the length of your Headers, you might want to cut them after solder
 
 ## Acknowledgements
 
-
 Cherry Switch 3d Model: https://3dwarehouse.sketchup.com/model/81cf92a3e03098a5cc90be332989df6e/Key-switch-Cherry
 
 Kicad Schematics / Footprints: https://github.com/imchipwood/dumbpad/tree/master/combo_oled
+
+Schematics for embedded version: https://github.com/kb-elmo/QEZ
+
