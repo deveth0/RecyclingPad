@@ -12,8 +12,8 @@ jobs:
       
     strategy:
       matrix:
-        keyboards: [v1x, v1x_left]
-        keymaps: [default, via]
+        keyboard: [v1x, v1x_left]
+        keymap: [default, via]
 
     steps:
       - name: Check out latest GMK
