@@ -43,4 +43,8 @@ jobs:
           fi
           exit $exit_code
         
-
+    - uses: actions/upload-artifact@v3
+      with:
+        name: latest-firmware
+        path: qmk_firmware/.build/
+        if-no-files-found: error
