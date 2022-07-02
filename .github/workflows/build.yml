@@ -1,3 +1,5 @@
+
+
 name: build
 
 on: 
@@ -21,7 +23,7 @@ jobs:
         with:
           path: recyclingPad
       - name: Copy config
-        run: cp -r recyclingPad/qmk/recyclingpad qmk/keyboards
+        run: cp -r recyclingPad/qmk/recyclingpad qmk_firmware/keyboards
       - name: Build all recyclingPads
         shell: 'bash {0}'
         run: |
