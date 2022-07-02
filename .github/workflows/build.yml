@@ -5,11 +5,10 @@ on:
   pull_request:
 
 jobs:
-
-  build:
+  
+  setup: 
     runs-on: ubuntu-latest
     container: qmkfm/qmk_cli
-
     steps:
       - name: Check out latest GMK
         uses: actions/checkout@v3
@@ -23,28 +22,21 @@ jobs:
           path: recyclingPad
       - name: Copy config
         run: cp -r recyclingPad/qmk/recyclingpad qmk_firmware/keyboards
-      - name: Build all recyclingPads
-        shell: 'bash {0}'
-        run: |
-          cd qmk_firmware
-          QMK_KEYBOARDS=$(qmk list-keyboards | grep recyclingpad)
-          exit_code=0
-          for KB in $QMK_KEYBOARDS; do
-            qmk info -l --keyboard ${KB}
-            QMK_KEYMAPS=$(qmk list-keymaps -kb ${KB})
-            for KM in $QMK_KEYMAPS; do
-              echo "building ${KB} - ${KM}"
-              qmk compile --keyboard ${KB} --keymap ${KM}
-              exit_code=$(($exit_code + $?))
-            done
-          done
-          if [[ $exit_code -gt 255 ]]; then
-              exit 255
-          fi
-          exit $exit_code
+
+  build:
+    runs-on: ubuntu-latest
+    container: qmkfm/qmk_cli
+      
+    strategy:
+      matrix:
+        keyboards: [v1x, v1x_left]
+        keymaps: [default, via]
+
+    steps:
+      - run: cd qmk_firmware && qmk compile --keyboard ${matrix.keyboard} --keymap ${matrix.keymap}
         
       - uses: actions/upload-artifact@v3
         with:
-          name: latest-firmware
-          path: qmk_firmware/.build/*.hex
+          name: ${matrix.keyboard}-${matrix.keymap}
+          path: qmk_firmware/.build/${matrix.keyboard}-${matrix.keymap}.hex
           if-no-files-found: error
