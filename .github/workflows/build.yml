@@ -16,6 +16,7 @@ jobs:
         with:
           repository: qmk/qmk_firmware
           path: qmk_firmware
+          submodules: true
       - name: Checkout code
         uses: actions/checkout@v3
         with:
@@ -26,7 +27,7 @@ jobs:
         shell: 'bash {0}'
         run: |
           cd qmk_firmware
-          QMK_KEYBOARDS=$(qmk list-keyboards)
+          QMK_KEYBOARDS=$(qmk list-keyboards | grep recyclingpad)
           exit_code=0
           for KB in $QMK_KEYBOARDS; do
             qmk info -l --keyboard ${KB}
