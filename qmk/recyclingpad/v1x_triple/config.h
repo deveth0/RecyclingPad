@@ -25,12 +25,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Column/Row IO definitions */
 #define MATRIX_ROWS 3
 #define MATRIX_COLS 3
-#define MATRIX_ROW_PINS { B3, B6, B5 }
-#define MATRIX_COL_PINS { E6, B1, F7 }
+#define MATRIX_ROW_PINS { E6, B1, F7 }
+#define MATRIX_COL_PINS { B3, B6, B5 }
 #define UNUSED_PINS
 
 
-/* Single rotary encoder */
+/* rotary encoder */
 #define ENCODERS_PAD_A { F6, F4, C6 }
 #define ENCODERS_PAD_B { F5, D4, D7 }
 

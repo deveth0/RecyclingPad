@@ -29,8 +29,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COL_PINS { E6, B1, F7 }
 #define UNUSED_PINS
 
+/* encoder */
+#define ENCODERS_PAD_A { F6, F4, C6 }
+#define ENCODERS_PAD_B { F5, D4, D7 }
+
 /* Bootmagic - hold down top left switch while plugging in to enter bootloader */
 #define BOOTMAGIC_LITE_ROW 0
 #define BOOTMAGIC_LITE_COLUMN 0
 
-// clang-format on
+// clang-format on666

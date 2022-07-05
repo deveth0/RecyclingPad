@@ -29,10 +29,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COL_PINS { E6, B1, F7 }
 #define UNUSED_PINS
 
-
-/* Single rotary encoder */
-#define ENCODERS_PAD_A { F6 }
-#define ENCODERS_PAD_B { F5 }
+/* encoder */
+#define ENCODERS_PAD_A { F6, F4, C6 }
+#define ENCODERS_PAD_B { F5, D4, D7 }
 
 #define ENCODER_RESOLUTION 2
 
