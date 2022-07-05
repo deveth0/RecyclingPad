@@ -41,7 +41,7 @@ bool encoder_update_kb(uint8_t index, bool clockwise)
         }
         break;
     case 1:
-        // encoder 2, vertical scroll
+        // encoder 1, vertical scroll
         if (clockwise)
         {
 
@@ -53,6 +53,7 @@ bool encoder_update_kb(uint8_t index, bool clockwise)
         }
         break;
     case 2:
+        // encoder 2, horizontal scroll
         if (clockwise)
         {
             tap_code(KC_UP);

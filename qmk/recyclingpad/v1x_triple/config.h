@@ -32,7 +32,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Single rotary encoder */
 #define ENCODERS_PAD_A { F6, F4, C6 }
-#define ENCODERS_PAD_B { F5, D4, D0 }
+#define ENCODERS_PAD_B { F5, D4, D7 }
 
 #define ENCODER_RESOLUTION 2
 
