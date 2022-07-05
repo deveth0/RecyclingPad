@@ -3,6 +3,7 @@
 *.CFG
 *#*
 *.lck
+*.FCStd1
 
 *-backups
 fp-info-cache

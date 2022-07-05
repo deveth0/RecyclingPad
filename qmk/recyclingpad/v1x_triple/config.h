@@ -1,5 +1,4 @@
-/*
-Copyright 2022 imchipwood && deveth0
+yright 2022 imchipwood && deveth0
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -25,10 +24,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Column/Row IO definitions */
 #define MATRIX_ROWS 3
 #define MATRIX_COLS 3
-#define MATRIX_ROW_PINS { B6, B5, B3 }
-#define MATRIX_COL_PINS { E6, F7, B1 }
+#define MATRIX_ROW_PINS { B3, B6, B5 }
+#define MATRIX_COL_PINS { F7, B1, E
+}
 #define UNUSED_PINS
-
 
 /*  rotary encoder */
 #define ENCODERS_PAD_A { F6, F4, C6 }
