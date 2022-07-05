@@ -25,16 +25,19 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Column/Row IO definitions */
 #define MATRIX_ROWS 3
 #define MATRIX_COLS 3
-#define MATRIX_ROW_PINS { B3, B6, B5 }
-#define MATRIX_COL_PINS { E6, B1, F7 }
+#define MATRIX_ROW_PINS { B5, B3, B6 }
+#define MATRIX_COL_PINS { F7, B1, E6 }
 #define UNUSED_PINS
 
-/* encoder */
+/*  rotary encoder */
 #define ENCODERS_PAD_A { F6, F4, C6 }
 #define ENCODERS_PAD_B { F5, D4, D7 }
 
-/* Bootmagic - hold down top left switch while plugging in to enter bootloader */
+#define ENCODER_RESOLUTION 2
+
+
+/* Bootmagic - hold down rotary encoder pushbutton while plugging in to enter bootloader */
 #define BOOTMAGIC_LITE_ROW 0
 #define BOOTMAGIC_LITE_COLUMN 0
 
-// clang-format on666
+// clang-format on423
