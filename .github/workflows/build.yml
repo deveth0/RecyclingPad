@@ -12,7 +12,7 @@ jobs:
       
     strategy:
       matrix:
-        keyboard: [v1x, v1x_left]
+        keyboard: [v1x, v1x_left, v1x_triple]
         keymap: [default, via]
 
     steps:
