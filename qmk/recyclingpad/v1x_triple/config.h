@@ -26,9 +26,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROWS 3
 #define MATRIX_COLS 3
 #define MATRIX_ROW_PINS { B6, B5, B3 }
-#define MATRIX_COL_PINS { F7, B1, E6 }
+#define MATRIX_COL_PINS { E6, F7, B1 }
 #define UNUSED_PINS
-
+3
 
 /*  rotary encoder */
 #define ENCODERS_PAD_A { F6, F4, C6 }
