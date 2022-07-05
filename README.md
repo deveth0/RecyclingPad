@@ -16,19 +16,26 @@ It features 3x3 keys, whereby any of the upper three once can be replaced by EC1
 
 Depending on your setup, you can replace any number of the upper switches with EC11 rotary encoders.
 
-
 ## Assembly
 
 As the whole PCB is quite tight packed, you need to keep an eye on the soldering order. If you use Millmax Sockets, it's getting easier as you can remove the switches if required.
 
 1. First solder in all the diodes and the reset switch
 2. Then add the MillMax Sockets
+3. Solder in the center EC11 encoder (if used)
 3. Solder in the Pro Micro Headers (NOT THE Controler)
-4. Solder in the EC11 Encoder (use plate as guide to keep the encoder aligned)
+4. Solder in the the remaining EC11 Encoder (use plate as guide to keep the encoder aligned)
 5. If not using Millmax: Add all switches to the plate and solder in the switches
 5. Add the controller to the Headers
 
 Depending on the length of your Headers, you might want to cut them after soldering. Otherwise they might touch the PCB and shortcircuit a switch.
+
+
+## QMK
+
+The `qmk` folder contains some base configurations for the Pad. 
+
+Note: rows and columns are switched, therefor your configuration needs to be rotated 90° (see example configs).
 
 ## Acknowledgements
 
