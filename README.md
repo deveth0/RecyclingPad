@@ -12,7 +12,10 @@ It features 3x3 keys, whereby any of the upper three once can be replaced by EC1
 * 1x 6mm tactile switch (to reset MCU)
 * 16x Cherry-style mechanical switches
 * 32x Millmax Sockets 3305 (optional, for hotswap)
-* 4x 3.5mm Spacer (3d Print file available) => TODO: LINK
+* 4x 3.5mm Spacer (3d Print file available) => [Spacer 3.5mm](./Case/Recycling_Pad-Spacer_3,5mm.stl)
+* 4x 6mm Spacer (3d Print file available) => [Spacer 6mm](./Case/Recycling_Pad-Spacer_9mm.stl)
+
+
 
 Depending on your setup, you can replace any number of the upper switches with EC11 rotary encoders.
 
@@ -33,7 +36,7 @@ Depending on the length of your Headers, you might want to cut them after solder
 
 ## QMK
 
-The `qmk` folder contains some base configurations for the Pad. 
+The `qmk` folder contains some base configurations for the Pad.
 
 Note: rows and columns are switched, therefor your configuration needs to be rotated 90° (see example configs).
 
