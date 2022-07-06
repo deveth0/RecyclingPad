@@ -1,6 +1,6 @@
 (footprint "CHERRY-MX" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62B44C0D)
+  (tedit 62C5E8B0)
   (descr "<h3>Cherry MX Switch - Electromechanical Swith w/ LED</h3>\n\n<p>Cherry MX Keyswitches are top-of-the-line mechanical keyboard switches. They’re satisfyingly “clicky”, reliable up to tens-of-millions of key presses, and a standard in gaming and programming keyboards across the globe. This ‘blue’ version Cherry MX Switch is favored by most due to its secondary internal actuator making it less likely to “double-tap.” If you are looking for a noticeably audible and high-quality key switch, this is the perfect option for you!</p>\n\n<p><a href=\"https://www.sparkfun.com/products/13834\">SparkFun Product Link</a></p>\n<p><a href=\"https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf\">Datasheet</a></p>")
   (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
     (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -45,8 +45,8 @@
   (pad "" np_thru_hole circle (at -5.08 0) (size 1.706881 1.706881) (drill 1.706881) (layers *.Cu *.Mask) (tstamp 49c7d6f9-2b12-4c22-ae8e-19cf666f4c71))
   (pad "" np_thru_hole circle (at 5.08 0) (size 1.706881 1.706881) (drill 1.706881) (layers *.Cu *.Mask) (tstamp b4fd7c53-4885-4970-95f3-fcfe102bc022))
   (pad "" np_thru_hole circle (at 0 0) (size 4.0894 4.0894) (drill 4.0894) (layers *.Cu *.Mask) (tstamp c1c8153c-5528-4477-9829-8d4fc0e28f54))
-  (pad "S1" thru_hole circle (at -3.81 -2.54) (size 3.2258 3.2258) (drill 1.7526) (layers *.Cu *.Mask)
+  (pad "S1" thru_hole circle (at -3.81 -2.54) (size 2.8 2.8) (drill 1.6) (layers *.Cu *.Mask)
     (solder_mask_margin 0.0635) (tstamp 142b7f3e-a437-4a08-82c8-9276588222cd))
-  (pad "S2" thru_hole circle (at 2.54 -5.08) (size 3.2258 3.2258) (drill 1.7526) (layers *.Cu *.Mask)
+  (pad "S2" thru_hole circle (at 2.54 -5.08) (size 2.8 2.8) (drill 1.6) (layers *.Cu *.Mask)
     (solder_mask_margin 0.0635) (tstamp 9b8758c6-8761-47e1-ae39-6ee792d932f0))
 )
