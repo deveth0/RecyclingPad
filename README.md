@@ -4,6 +4,13 @@ This repository contains all required files to build a `Recycling Pad` which is 
 
 It features 3x3 keys, whereby any of the upper three once can be replaced by EC11 encoder(s).
 
+## Gallery
+
+![v0.1 revision Board](https://i.imgur.com/gCJmDmQ.jpeg)
+![v0.1 revision PCB rear](https://i.imgur.com/9wbCSJ9.jpeg)
+![v0.1 revision PCB front](https://i.imgur.com/PYV6cwx.jpeg)
+![v0.1 revision Side](https://i.imgur.com/57ipPn1.jpeg)
+
 ## Required Parts
 
 * 1x PCB
