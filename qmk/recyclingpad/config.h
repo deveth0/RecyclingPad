@@ -20,9 +20,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x0913
-#define MANUFACTURER    imchipwood
-#define PRODUCT         dumbpad
+#define PRODUCT_ID      0x1312
+#define MANUFACTURER    deveth0
+#define PRODUCT         recyclingPad
 
 /* Column/Row IO definitions */
 #define DIODE_DIRECTION COL2ROW
