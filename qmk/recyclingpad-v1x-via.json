@@ -1,7 +1,7 @@
 {
   "name": "Recycling Pad v1",
   "vendorId": "0xfeed",
-  "productId": "0x0913",
+  "productId": "0x1312",
   "matrix": {
     "rows": 3,
     "cols": 3
