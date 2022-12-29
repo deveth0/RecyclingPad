@@ -38,3 +38,4 @@ jobs:
           name: ${{matrix.keyboard}}-${{matrix.keymap}}.hex
           path: qmk_firmware/.build/recyclingpad_${{matrix.keyboard}}_${{matrix.keymap}}.hex
           if-no-files-found: error
+          retention-days: 90
