@@ -1,0 +1,20 @@
+{
+    "url": "https://github.com/deveth0/RecyclingPad",
+    "maintainer": "deveth0",
+    "keyboard_name": "Recycling Pad v1",
+    "manufacturer": "deveth0",
+    "usb": {
+        "device_version": "0.1.0",
+        "vid": "0xFEED",
+        "pid": "0x1312"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                                {"x":1, "y":0}, {"x":2, "y":0}, {"x":3, "y":0},
+                                {"x":1, "y":1}, {"x":2, "y":1}, {"x":3, "y":1},
+                                {"x":1, "y":2}, {"x":2, "y":2}, {"x":3, "y":2}
+            ]
+        }
+    }
+}
