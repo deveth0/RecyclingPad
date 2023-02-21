@@ -8,9 +8,7 @@
     "vid": "0xfeed",
     "pid": "0x1312",
     "device_version": "1.0.0"
-},
-
-
+  },
   "matrix": {
     "rows": 3,
     "cols": 3
