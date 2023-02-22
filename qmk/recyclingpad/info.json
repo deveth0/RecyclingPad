@@ -5,7 +5,7 @@
     "manufacturer": "deveth0",
     "usb": {
         "device_version": "0.1.0",
-        "vid": "0xFEED",
+        "vid": "0x4445",
         "pid": "0x1312"
     },
     "layouts": {
